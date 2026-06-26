@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "build-bigger",
+    "title": "Build Something Bigger",
+    "group": "campaign",
+    "width": 1080,
+    "height": 1350,
+    "blur": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAAAwBACdASoQABQAPxFysFAsJqSisAgBgCIJZQAugAB6HUw/3QAo17j6LlAA/tRtZXhfY+rCrZTgk/6eWY1+1z869U98NTrX773HLcAp/F16c2rioG7NUFPi5s6E3Xj+vNRt2OP+R3sPa1uJwFzpsxRuB+npsUeFY3WJLu4nLA6f1q/4g2hguB0bDrWEQhrEwzee6KsfSqr8Hfk1bX3GAAAA"
+  },
+  {
+    "slug": "the-authority",
+    "title": "The Authority",
+    "group": "campaign",
+    "width": 1080,
+    "height": 1350,
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADQAwCdASoQABQAPxFysFAsJqSisAgBgCIJagC+SYv0xhFLxyH7BqAA/uriU5ifPB3Bk4AHdRbzD2EE/FxpGbnXovc9/JBLUP6hKiu1krv7eqhj/HLR2NztKBxrNXjp2P73if+T40VvS0pFYo/97ZYihVjZsfMYuDhuVfR9GQqmb03AioSQ0xZCEAA="
+  },
+  {
+    "slug": "the-recognition",
+    "title": "The Recognition",
+    "group": "campaign",
+    "width": 1080,
+    "height": 1350,
+    "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAAAQBACdASoQABQAPxFysFAsJqSisAgBgCIJZgDCgYtU39cldB4wKCePCAD+505gDGZdXLbKkfHPMtC4n8rGN7Z92xPQoABm581TUnZL/SuG6R7Eu1kE03d5OGlNX9UHsJrM7HljDCZZ1V8xIgvaH6Ken8dxi4IIKIRtpDG11RwrkiI5tzmP/d0eUlXjgAAA"
+  },
+  {
+    "slug": "the-momentum",
+    "title": "The Momentum",
+    "group": "campaign",
+    "width": 1080,
+    "height": 1350,
+    "blur": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAAAQBQCdASoQABQAPxFysFAsJqSisAgBgCIJbAB3A8QQYCWchypUIXqYC4MK8s0XxvxAAP7q1AzUQT0a2yNKwNuh9D3sJy+y/dcglx8Q7qPj/M5iXT/06OmzvwGSZs0Fvf6/H8iV5ZG9/6p2JQqk2HgJ9MxVr1mVydpxisHsBbltU7Mm0rjExNA8FFb4M6w6xqsWfR96u5Kr535TmerqpNZOg7uQ4AAA"
+  },
+  {
+    "slug": "the-expansion",
+    "title": "The Expansion",
+    "group": "campaign",
+    "width": 1080,
+    "height": 1350,
+    "blur": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAQBACdASoQABQAPxFysFAsJqSisAgBgCIJQBfnMYEaqNECjw1eG+K+vAD+6uKqpc6Puktf0Lv7NOyUJ0LjXrGv82cBTnYkjvyEO+ZYPmCO/uEhDLJnlCgcIUqsAOxcdzSMPw6RUCc0zJ/LhOO0wY/XujY6fJ3TMwc8tFkDOF2EJnm7zWhhjEAD9NhCq5rm9VSCIAAA"
+  },
+  {
+    "slug": "success-by-design",
+    "title": "Success by Design",
+    "group": "campaign",
+    "width": 1080,
+    "height": 1350,
+    "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABQBACdASoQABQAPxF8tFGsKCUisAgBgCIJZgDA3Yvq39VEJBmlGiu3R2ZQAP7nmwU8IvO1erUfu4NER7xygMnPoP0w9gFkmbho6F3f0WyV8mjQCyE0ylIPdv/nfpRjh5Cc230nd1D5NqHtcvd3+vYzqkImxZMPOFv73vy1u/L6s+Q/DIeztta/k37IHsbPrEeZRnoAAAA="
+  },
+  {
+    "slug": "the-innovation",
+    "title": "The Innovation",
+    "group": "campaign",
+    "width": 1080,
+    "height": 1350,
+    "blur": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAABQBACdASoQABQAPxFysFAsJqSisAgBgCIJYwAD5OHZpS5d/NJcNY7Nz4gAAP7fh3q3UykH0rbpSbToEqWbA1BhpU9YfsaTuvbjJLtiGD8E4GSKPfbpWq70cyzVkMicTmrA0yfIvKoopuCYU6zDsim3MlC4nFjmwtz3iD6zr9MGr+3KzXn/mnBgIhq/+9nRv8G6w9LfT6Fr+DTzKnvqEaYJcpYAAA=="
+  },
+  {
+    "slug": "the-connection",
+    "title": "The Connection",
+    "group": "campaign",
+    "width": 1080,
+    "height": 1350,
+    "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAQBACdASoQABQAPxFysFAsJqSisAgBgCIJbACdMoAC7LGapkKAfg7UAAD+r+4ndV51K6i7wJZy4596mIuf0G9R7xMbaucqw2TJaPyzNxOQ9ExoUeohp427Zn/4Z3Rh6sX7JXrnTh1uTyVf2GY81uP02PjmNlzc7/4usRl7W7UT+Jbq85/fjJhxfP5qn+kLZnDWblxPG99QhCRmAAA="
+  },
+  {
+    "slug": "the-connection-ii",
+    "title": "The Connection II",
+    "group": "campaign",
+    "width": 1080,
+    "height": 1350,
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAAAQBACdASoQABQAPxFysFAsJqSisAgBgCIJZgCzgCG9LUDYWi5CjCEj2AD+4I7PI1q+X2SJvGJwpXk/cBF/eGIcE7wJ3ulsbGpkcb2/EniY2BrbpK9avWExilpA1Tvw8kxOurduFG/fVZPUJwfMDZ/v+vxAxV8DS4blE+6XZ9Eno+eQCkwJufmIAAA="
+  },
+  {
+    "slug": "the-growth",
+    "title": "The Growth",
+    "group": "campaign",
+    "width": 1080,
+    "height": 1350,
+    "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAAAQBACdASoQABQAPxFysFAsJqSisAgBgCIJQBibMXNb5y/Oz3WdepzhAAD+6uJbc5RgPj5rxJt3VVawS8xGcQHP2211lSNpvtttfFlT9wr+529dS58mOXKY8BBJfofdsA+bBE8gAc13ABF3T2R4m3E/DDNExXhk8l+N228AsR7tpsFwlSsDID2Z4bEesAAA"
+  },
+  {
+    "slug": "the-destination",
+    "title": "The Destination",
+    "group": "campaign",
+    "width": 1080,
+    "height": 1350,
+    "blur": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAACwBACdASoQABQAPxFysFAsJqSisAgBgCIJZgCdIOZgshORPqdX5v4PUXOYvXoAAP7nVxiK0jDK7QvLq3/JhaodCp7AZqJ/AoZx2LhPKdlRjWZeAtLN48u+LsJRr5NqF/K8AZ3y8sgVmi9XyI+HiEHlaW/6WLClKfRdNRj1YOO5meuBtAig6NCVbSrbd6gqbchU05k0WOYmxGJfDGmtLAAA"
+  },
+  {
+    "slug": "fried",
+    "title": "Fried",
+    "group": "concept",
+    "width": 1080,
+    "height": 1350,
+    "blur": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAABwBACdASoQABQAPxFysFAsJqSisAgBgCIJYgC/OYv0xflIg5pjkUwILnaSsADiflA+j/iOTnQbeXYtsrEJ7vDc3Daq9FEW5wC+HEJKGCF/1ZKtLvTtEZcHD0hr44vCZyBG0ruiwGfuY5lQYB4dhmLJyPDb1pzdxwwKjGGm+3LKp9qd4GrdFfHmTPrtICQayyjBET3lRtvDdT5IMeSpAch8xcr+4fCTV5QIY31bqtbrIPlJCAA="
+  },
+  {
+    "slug": "design-beyond-limits",
+    "title": "Design Beyond Limits",
+    "group": "concept",
+    "width": 1080,
+    "height": 1350,
+    "blur": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADwAwCdASoQABQAPxFwsFAsJiSisAgBgCIJZwAAXw+zcVN5u6azucBYAP7W1zQ94/kumzrJJ2tiTd7hm0mQMxz83H6QHR3Ooh2lvvGWVGNr0ASi7xiLruValYPcUTBh7a8u7CMi8DytqS+gMSIGbDZAWuXT4oXuwd1tPwkQfD5xqpV/CYXUAAAA"
+  },
+  {
+    "slug": "just-noise",
+    "title": "Just Noise",
+    "group": "concept",
+    "width": 1080,
+    "height": 1350,
+    "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADQAwCdASoQABQAPxFwsFAsJiSisAgBgCIJaAAAV6tQtSxwGhDYH4AA/uFdK6OfLL4sk/037vjuR88eoAOn3okGWMCy4wPybOTT0mTEpa4sC582MAVIKnJV+8MCIJvVqhbue1EmHqvM7Nz1m/yjO1efBDMTzk63CzUvu+lg6kUf/KHZGbmwKISULYhgAAAA"
+  },
+  {
+    "slug": "2027-state-of-mind",
+    "title": "2027 State of Mind",
+    "group": "concept",
+    "width": 1080,
+    "height": 1350,
+    "blur": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAACQBACdASoQABQAPxFysFAsJqSisAgBgCIJZgCw7YyK1bm9oX5C+0Ch9pQ+tQgA/silAaTMluYkcJWp3sPJ2wF5rHpeeHC4Y7msUuU9DcSOytMy9/XdAyMrmiYwES0Nt9wHs9ddg6OSgtcBVYC6j5yRektPBNWu/0l7PP8A5e+Un+frtWcACop743NmCe+3nQCqgIAA"
+  }
+]

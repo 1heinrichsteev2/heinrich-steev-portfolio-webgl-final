@@ -9,7 +9,14 @@ export default function Footer() {
           <p className="text-sm text-content-muted">{siteConfig.tagline}</p>
         </div>
         <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-content-secondary">
-          <a href={`mailto:${siteConfig.email}`} className="hover:text-accent">{siteConfig.email}</a>
+          <a
+  href={`https://mail.google.com/mail/?view=cm&fs=1&to=${siteConfig.email}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-accent"
+>
+  {siteConfig.email}
+</a>
           <a href={siteConfig.behance} target="_blank" rel="noopener" className="hover:text-accent">Behance</a>
           <Link href="/contact" className="hover:text-accent">Contact</Link>
         </div>

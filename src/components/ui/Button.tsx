@@ -9,6 +9,24 @@ export default function Button({ children, href, variant = "primary", className,
     ? "bg-accent text-accent-on hover:shadow-glow hover:-translate-y-0.5"
     : "border border-line-strong bg-surface-1/60 text-content backdrop-blur hover:border-line-accent hover:-translate-y-0.5";
   const cls = clsx(base, styles, className);
-  if (href) return <Link href={href} className={cls}>{children}</Link>;
+  if (href)
+  return (
+    <Link
+      href={href}
+      className={cls}
+      target={
+        href.startsWith("http") || href.startsWith("mailto:")
+          ? "_blank"
+          : undefined
+      }
+      rel={
+        href.startsWith("http") || href.startsWith("mailto:")
+          ? "noopener noreferrer"
+          : undefined
+      }
+    >
+      {children}
+    </Link>
+  );
   return <button onClick={onClick} className={cls}>{children}</button>;
 }

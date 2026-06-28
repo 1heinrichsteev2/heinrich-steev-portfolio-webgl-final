@@ -1,10 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import "../styles/themes.css";
 
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { background: var(--bg); color: var(--text-primary); font-family: var(--font-body), system-ui, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
-::selection { background: var(--accent); color: var(--on-accent); }
-:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg, #0B0B0B);
+  color: var(--text-primary, #ffffff);
+  font-family: system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--accent, #ffcc00);
+  color: var(--on-accent, #000000);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent, #ffcc00);
+  outline-offset: 2px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-shadow: none !important;
+}
+
+.gradient-text {
+  text-shadow: none !important;
+}
+
+.text-content-secondary {
+  color: rgb(228 228 231) !important;
+}
+
+.text-content-muted {
+  color: rgb(212 212 216) !important;
+}
+
+.text-content {
+  color: rgb(255 255 255) !important;
+}
+
+p,
+li {
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.55);
+}

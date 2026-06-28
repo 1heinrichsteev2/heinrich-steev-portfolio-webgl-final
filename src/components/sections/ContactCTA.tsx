@@ -10,7 +10,12 @@ export default function ContactCTA() {
         <p className="mx-auto mt-4 max-w-md text-content-secondary">Civil, digital, visual, and motion — your complete creative partner under one roof.</p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Button href="/contact">Start a project</Button>
-          <Button href={`mailto:${siteConfig.email}`} variant="ghost">{siteConfig.email}</Button>
+          <Button
+  href={`https://mail.google.com/mail/?view=cm&fs=1&to=${siteConfig.email}`}
+  variant="ghost"
+>
+  {siteConfig.email}
+</Button>
         </div>
       </div>
     </Section>

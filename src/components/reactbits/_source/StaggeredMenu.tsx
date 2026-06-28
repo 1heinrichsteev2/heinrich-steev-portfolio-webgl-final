@@ -1,6 +1,7 @@
 import React, { useCallback, useLayoutEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 
+
 export interface StaggeredMenuItem {
   label: string;
   ariaLabel: string;
@@ -18,7 +19,7 @@ export interface StaggeredMenuProps {
   displaySocials?: boolean;
   displayItemNumbering?: boolean;
   className?: string;
-  logoUrl?: string;
+  logoUrl?: string | null;
   menuButtonColor?: string;
   openMenuButtonColor?: string;
   accentColor?: string;
@@ -37,7 +38,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
   displaySocials = true,
   displayItemNumbering = true,
   className,
-  logoUrl = '/src/assets/logos/reactbits-gh-white.svg',
+  logoUrl = null,
   menuButtonColor = '#fff',
   openMenuButtonColor = '#fff',
   changeMenuColorOnOpen = true,
@@ -384,8 +385,12 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
 
   return (
     <div
-      className={`sm-scope z-40 ${isFixed ? 'fixed top-0 left-0 w-screen h-screen overflow-hidden' : 'w-full h-full'}`}
-    >
+  className={`sm-scope ${
+    isFixed
+      ? "fixed top-0 right-0 z-[9999]"
+      : "inline-block"
+  }`}
+>
       <div
         className={
           (className ? className + ' ' : '') + 'staggered-menu-wrapper pointer-events-none relative w-full h-full z-40'
@@ -421,14 +426,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
           aria-label="Main navigation header"
         >
           <div className="sm-logo flex items-center select-none pointer-events-auto" aria-label="Logo">
-            <img
-              src={logoUrl || '/src/assets/logos/reactbits-gh-white.svg'}
-              alt="Logo"
-              className="sm-logo-img block h-8 w-auto object-contain"
-              draggable={false}
-              width={110}
-              height={24}
-            />
+            <span className="sm-logo-text">Heinrich.</span>
           </div>
 
           <button

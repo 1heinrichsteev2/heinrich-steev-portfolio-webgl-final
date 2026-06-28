@@ -9,11 +9,11 @@ function AboutPreview() {
   return (
     <Section id="about">
       <div ref={ref} className="grid gap-8 lg:grid-cols-[1.2fr_1fr] lg:items-center">
-        <div>
+        <div className="rounded-3xl bg-black/10 backdrop-blur-[2px] p-6">
           <Eyebrow>About</Eyebrow>
           <h2 className="text-3xl font-bold text-content sm:text-4xl">Design as <span className="gradient-text">rebellion</span>, built on discipline.</h2>
-          <p className="mt-5 max-w-xl text-content-secondary">{siteConfig.summary}</p>
-          <p className="mt-4 max-w-xl text-content-secondary">A civil-engineering background turned design discipline — structure first, then the visual risk. Five years across branding, events, e-learning, and motion.</p>
+          <p className="mt-5 max-w-xl text-zinc-200">{siteConfig.summary}</p>
+          <p className="mt-4 max-w-xl text-zinc-200">A civil-engineering background turned design discipline — structure first, then the visual risk. Five years across branding, events, e-learning, and motion.</p>
           <div className="mt-7"><Button href="/about" variant="ghost">More about me</Button></div>
         </div>
         <div className="grid grid-cols-2 gap-4">

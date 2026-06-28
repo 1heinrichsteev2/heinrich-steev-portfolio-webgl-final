@@ -1,25 +1,29 @@
 "use client";
+
 import dynamic from "next/dynamic";
-import { useRef } from "react";
-import { useCapability } from "@/hooks/useCapability";
-import { useInView } from "@/hooks/useInView";
-import { effectGates } from "@/lib/device-capability";
-const DotGrid = dynamic(() => import("../_source/DotGrid"), { ssr: false });
-/**
- * Mounts the real DotGrid only while on-screen (RAF pauses when unmounted).
- * Particle DENSITY scales via the component's own `gap` prop — not a behavior change,
- * just the supported knob for fewer dots on weaker GPUs.
- */
-export default function DotGridGate({ baseColor, activeColor }: { baseColor?: string; activeColor?: string }) {
-  const cap = useCapability();
-  // no rootMargin cushion: unmount (and stop the WebGL RAF) as soon as it leaves the viewport
-  const { ref, inView } = useInView<HTMLDivElement>({ rootMargin: "0px", threshold: 0 });
-  const gap = cap ? effectGates.dotGridGap(cap) : 32;
+
+const DotField: any = dynamic(
+  () => import("../_source/DotField.js"),
+  { ssr: false }
+);
+
+export default function DotGridGate() {
   return (
-    <div ref={ref} className="absolute inset-0">
-      {inView && cap && (
-        <DotGrid gap={gap} baseColor={baseColor ?? "var(--particle)"} activeColor={activeColor ?? "var(--accent)"} proximity={120} />
-      )}
+    <div className="fixed inset-0 -z-10 pointer-events-none">
+      <DotField
+        dotRadius={1.5}
+        dotSpacing={14}
+        bulgeStrength={90}
+        glowRadius={120}
+        sparkle={false}
+        waveAmplitude={0}
+        cursorRadius={280}
+        cursorForce={0.1}
+        bulgeOnly
+        gradientFrom="rgba(168,85,247,0.80)"
+gradientTo="rgba(180,151,207,0.65)"
+        glowColor="#120F17"
+      />
     </div>
   );
 }

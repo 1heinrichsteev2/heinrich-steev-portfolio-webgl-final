@@ -1,5 +1,7 @@
 "use client";
+
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
 import Section, { Eyebrow } from "@/components/ui/Section";
 import Button from "@/components/ui/Button";
 import { siteConfig } from "@/lib/site-config";
@@ -18,17 +20,37 @@ export default function ContactPage() {
     message: "",
   });
 
-  const submit = () => {
-    const subject = encodeURIComponent(
-      `Project enquiry from ${form.name || "website"}`
-    );
+  const submit = async () => {
+    if (!form.name || !form.email || !form.message) {
+      alert("Please fill all fields.");
+      return;
+    }
 
-    const bodyText = encodeURIComponent(
-      `${form.message}\n\n— ${form.name} (${form.email})`
-    );
+    try {
+      await emailjs.send(
+        "service_4tdurlp",
+        "template_w2sx6on",
+        {
+          from_name: form.name,
+          from_email: form.email,
+          message: form.message,
+        },
+        "GUHN0qHYUkNrtcNIq"
+      );
 
-    window.location.href = `mailto:${siteConfig.email}?subject=${subject}&body=${bodyText}`;
-    setSent(true);
+      setSent(true);
+
+      alert("Message sent successfully!");
+
+      setForm({
+        name: "",
+        email: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error(error);
+      alert("Failed to send message.");
+    }
   };
 
   return (
@@ -118,7 +140,7 @@ export default function ContactPage() {
             <div className="pt-4">
               <div style={{ marginLeft: "-100px" }}>
                 <Button onClick={submit}>
-                  {sent ? "Opening mail..." : "Send message"}
+                  {sent ? "Message Sent ✓" : "Send message"}
                 </Button>
               </div>
             </div>

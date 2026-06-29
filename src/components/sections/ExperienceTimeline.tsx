@@ -17,9 +17,9 @@ function ExperienceTimeline({ full = false }: { full?: boolean }) {
       </h2>
 
       <div
-        ref={ref}
-        className="relative ml-3 pl-12"
-      >
+  ref={ref}
+  className="relative"
+>
         {roles.map((r, i) => (
           <div
             key={i}

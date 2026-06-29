@@ -1,10 +1,13 @@
 /** Software skills verbatim from résumé. */
 export const software = [
-  { name: "Photoshop", abbr: "Ps", level: 95 },
-  { name: "Illustrator", abbr: "Ai", level: 92 },
-  { name: "Premiere Pro", abbr: "Pr", level: 88 },
-  { name: "After Effects", abbr: "Ae", level: 85 },
-  { name: "Lightroom", abbr: "Lr", level: 90 },
+  { name: "Photoshop", abbr: "Ps" },
+  { name: "Illustrator", abbr: "Ai" },
+  { name: "Premiere Pro", abbr: "Pr" },
+  { name: "After Effects", abbr: "Ae" },
+  { name: "Lightroom", abbr: "Lr" },
+  { name: "InDesign", abbr: "Id" },
+  { name: "Canva", abbr: "Ca" },
+  { name: "Figma", abbr: "Fg" }, // optional
 ];
 
 /** Services from the master prompt's services list. */

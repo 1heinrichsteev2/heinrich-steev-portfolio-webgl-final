@@ -46,10 +46,7 @@ function ExperienceTimeline({ full = false }: { full?: boolean }) {
               e.currentTarget.style.boxShadow = "";
             }}
           >
-            <span
-              className="absolute -left-[46px] top-7 h-3.5 w-3.5 rounded-full ring-4 ring-bg"
-              style={{ background: "var(--accent)" }}
-            />
+            
 
             <p className="text-sm text-content-muted">{r.period}</p>
 
